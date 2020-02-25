@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h3> Datos Personales</h3>
+    <form action="Persona/Persona" method="post">
+        <label>Cedula: <input type="text" name="cedula" value=" " /></label><br />
+        <label>Nombre: <input type="text" name="nombre" value=" " /></label><br />
+        <label>Apellido: <input type="text" name="apellido" value=" " /></label><br />
+        <label>Edad: <input type="text" name="edad" value=" " /></label><br />
+        <label>Telefono: <input type="text" name="telefono" value=" " /></label><br />
+        <label>Correo: <input type="text" name="correo" value=" " /></label><br />
+        <label>Genero: <input type="radio" name="genero" value="Masculino"> Hombre <input type="radio" name="genero" value="Femenino" /> Mujer </label><br />
+        <label>Cargo: <input type="text" name="cargo" value=" " /></label> <br />
+        <input type="file" name="imagen" /> <br />
+        <input type="file" name="PDF" /> <br />
+        <input type="submit" name="enviar" value="Enviar" />
+    </form>
+    </div>
+</body>
+</html>
